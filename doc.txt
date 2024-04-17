@@ -1,0 +1,13 @@
+COUNTER GAME 
+
+IDEAS: 
+ability to raise or lower the number [eventually by cards]
+goal is to get as close to target number as possible without busting
+target number randomly generated (50-100)
+
+TO DO: 
+create basic HTML structure
+ --increment button
+ --display target number
+ --display current number
+ --reset button
