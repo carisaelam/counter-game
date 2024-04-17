@@ -99,7 +99,7 @@ body {
 }
 
 header {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .header__description {
@@ -107,17 +107,36 @@ header {
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    padding: .5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  width: 100%;
 }
 
 .current__display {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.button {
+  background-color: hsl(39, 100%, 50%);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  box-shadow: 0px 2px 5px hsl(43, 75%, 39%);
+}
+
+.button:active {
+  background-color: hsl(39, 100%, 40%);
+  box-shadow: inset 0px 2px 5px darkgrey;
 }
 
 .reset__button {
   display: block;
+  background-color: rgb(0, 94, 255);
+  color: white;
+  transform: scale(1.1);
 }
 
 .add__button {
@@ -125,5 +144,5 @@ main {
 }
 
 .status__data {
-    color: blue;
+  color: blue;
 }

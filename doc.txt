@@ -6,8 +6,16 @@ goal is to get as close to target number as possible without busting
 target number randomly generated (50-100)
 
 TO DO: 
-create basic HTML structure
+✅ create basic HTML structure
  --increment button
  --display target number
  --display current number
  --reset button
+
+ ✅ figure out why current doesn't always start at 0
+
+ add a scoring feature 
+ --button to add to score
+ --adds the statusData amount to a running score [somehow]
+ --if you bust, you lose x number of points from your total score
+ --maybe add a timer as well so there is a finite amount of time to play
